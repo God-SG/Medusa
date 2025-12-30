@@ -1,3 +1,2 @@
 # Medusa
-TLO bot
-injections retarded source code lol
+injections retarded tlo discord bot source code lol
